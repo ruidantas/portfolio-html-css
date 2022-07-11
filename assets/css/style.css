@@ -461,7 +461,44 @@ footer div#eu h2 {
  
     
     
+    section#menu{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    
+    section div#noel {
+    display: flex;
+    flex-direction: row-reverse;
+    }
+    
 
+    section div#noel h2 {
+        padding: 1rem;
+        font-size: large;
+        color: #b1ada8;
+        font-weight: 500px;
+    }
+    
+    section div#noel img {
+        width: 55px;
+    
+    }
+    
+    
+    
+    nav ul {
+        display: flex;
+     
+    }
+    
+    nav ul li {
+        padding: .8rem;
+        list-style: none;
+        font-size: .5rem;
+        font-weight: 600;
+    }
     
     header {
         display: grid;
@@ -476,6 +513,12 @@ footer div#eu h2 {
     }
     
     
+    header button img {
+        width: 50px;
+        
+
+    }
+
     header div {
         padding: 1rem;
         grid-column: 1 / 4;
@@ -496,10 +539,10 @@ footer div#eu h2 {
     }
     
     header img {
-    width: 40%;
-    padding-top: 1rem;
-      grid-column: 3 / 5 ;
-      grid-row: 2;
+    width: 30%;
+    padding-left: 1rem;
+      grid-column: 2 / 5 ;
+      grid-row: 3;
     }
     
 
